@@ -1,0 +1,11 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data
+*.csv
+*.log
+
+# Power BI temp files (if any)
+*.pbix.backup

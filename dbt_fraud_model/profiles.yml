@@ -1,0 +1,11 @@
+dbt_fraud_model:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 3306
+      schema: fraud_risk
+      username: root
+      password: 'Reddy@9441'
+      threads: 4
